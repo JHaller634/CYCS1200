@@ -7,7 +7,7 @@
 
 #include "bsearch.h"
 
-#include <stdio.h>  // for printf
+#include<stdio.h>  // for printf
 
 /* Test Suite setup and cleanup functions: */
 
@@ -31,7 +31,7 @@ void test_case_sample(void)
 
 void bsearch_test_1(void) {
   int inputarray[] = {1,2,3,4,5,6,7,8,9,10};
-  /* CU_ASSERT_EQUAL( bsearch(inputarray,10,3), 2);*/
+  CU_ASSERT_EQUAL( bsearch(inputarray,10,3), 2);
 }
 
 
